@@ -7,6 +7,7 @@
     width: 1200px;
     margin: auto;
 }
+/* hero section  */
 
 .hero-banner{
    background: url('/images/banner.png');
@@ -62,6 +63,32 @@
 margin-right: 10px;
 }
 
+/* popular section  */
+.section-container{
+    margin:100px 0;
+}
+.popular-conatiner{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap: 50px;
+}
+.popular-content>h1{
+font-size: 2.5em;
+margin: 20px 0;
+
+}
+.popular-details{
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.popular-point-details{
+    padding: 30px;
+}
+.popular-point-details>p{
+    margin: 20px 0;
+  
+}
+
 
 
 /* responsive  */
@@ -82,6 +109,13 @@ margin-right: 10px;
         display: block;
         width: 100%;
         margin-top: 10px;
+    }
+    .popular-conatiner{
+        grid-template-columns: 1fr;
+        padding:0 30px 30px 30px;
+    }
+    .popular-img{
+        width: 100%;
     }
 
 }

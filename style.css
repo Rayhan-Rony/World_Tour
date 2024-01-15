@@ -3,3 +3,85 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body-container{
+    width: 1200px;
+    margin: auto;
+}
+
+.hero-banner{
+   background: url('/images/banner.png');
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.hero-content{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); 
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    height: 500px;
+  
+    
+}
+.hero-content>div>h1{
+    font-size: 4em;
+    text-align: center;
+}
+.hero-content>div>p{
+    text-align: center;
+    padding: 26px;
+}
+.hero-form-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    border-radius: 8px;
+}
+#whereGo{
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    color: rgba(19, 19, 24, 0.50);
+    }
+.selectOption{
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    color: rgba(19, 19, 24, 0.50);
+}
+.hero-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+    padding: 13px 16px;
+}
+.fa-solid{
+margin-right: 10px;
+}
+
+
+
+/* responsive  */
+@media only screen and (max-width: 600px) {
+    .body-container{
+        width: 100%;
+    }
+    .hero-content>div>h1{
+        font-size: 2em;
+    }
+    .hero-form-container{
+        width: 70%;
+        margin: auto;
+    }
+    #whereGo,
+    .selectOption,
+    .hero-btn{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}

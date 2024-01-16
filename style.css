@@ -59,7 +59,7 @@ nav>div>ul{
 /* hero section  */
 
 .hero-banner {
-    background: url('/images/banner.png');
+    background: url('./Images/banner.png');
     background-repeat: no-repeat;
     color: white;
 

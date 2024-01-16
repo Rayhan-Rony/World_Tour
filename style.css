@@ -25,6 +25,14 @@
     margin: 100px 0;
 }
 
+.logo-color {
+    color: #FF5400;
+}
+
+.logo {
+    display: flex;
+}
+
 /* hero section  */
 
 .hero-banner {
@@ -294,6 +302,42 @@
     margin-top: 1.5em;
 }
 
+/* foooter  */
+.footer-container {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-content {
+    width: 50%;
+    margin: auto;
+    padding: 7em 0;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 2em;
+    font-weight: bold;
+
+
+}
+
+.footer-details {
+    margin-top: 1em;
+}
+
+.icon-group {
+    margin: 2em 0;
+}
+
+.copyright {
+    margin-top: 3em;
+}
 
 
 

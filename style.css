@@ -1,51 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.body-container{
+
+.body-container {
     width: 1200px;
     margin: auto;
 }
-.primary-btn{
+
+.primary-btn {
     border-radius: 8px;
     background: #FF5400;
     border: none;
     color: white;
     padding: 13px 16px;
 }
-.fa-solid{
+
+.fa-solid {
     margin-right: 10px;
-    }
-.section-container{
-        margin:100px 0;
-    }
+}
+
+.section-container {
+    margin: 100px 0;
+}
+
 /* hero section  */
 
-.hero-banner{
-   background: url('/images/banner.png');
+.hero-banner {
+    background: url('/images/banner.png');
     background-repeat: no-repeat;
     color: white;
-    
+
 }
-.hero-content{
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); 
+
+.hero-content {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     display: flex;
- justify-content: center;
+    justify-content: center;
     align-items: center;
     height: 500px;
-  
-    
+
+
 }
-.hero-content>div>h1{
+
+.hero-content>div>h1 {
     font-size: 4em;
     text-align: center;
 }
-.hero-content>div>p{
+
+.hero-content>div>p {
     text-align: center;
     padding: 26px;
 }
-.hero-form-container{
+
+.hero-form-container {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -53,13 +62,15 @@
     padding: 16px;
     border-radius: 8px;
 }
-#whereGo{
+
+#whereGo {
     border-radius: 8px;
     border: none;
     padding: 12px;
     color: rgba(19, 19, 24, 0.50);
-    }
-.selectOption{
+}
+
+.selectOption {
     border-radius: 8px;
     border: none;
     padding: 12px;
@@ -70,39 +81,44 @@
 
 /* popular section  */
 
-.popular-conatiner{
+.popular-conatiner {
     display: grid;
-    grid-template-columns:1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
-.popular-content>h1{
-font-size: 2.5em;
-margin: 20px 0;
+
+.popular-content>h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
 
 }
-.popular-details{
+
+.popular-details {
     color: rgba(19, 19, 24, 0.70);
 }
 
-.popular-point-details{
+.popular-point-details {
     padding: 30px;
 }
-.popular-point-details>p{
+
+.popular-point-details>p {
     margin: 20px 0;
-  
+
 }
-.popular-btn{
+
+.popular-btn {
     margin-top: 40px;
 }
 
 /* destination section  */
-.destination-title>h1{
+.destination-title>h1 {
     font-size: 2.5em;
     text-align: center;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.destination-title>p{
+
+.destination-title>p {
     text-align: center;
     width: 60%;
     margin: auto;
@@ -111,63 +127,158 @@ margin: 20px 0;
 
 
 }
-.destination-container{
+
+.destination-container {
     padding: 30px;
-   
+
 }
-.item>img{
-width: 100%;
-  }
+
+.item>img {
+    width: 100%;
+}
+
 .first-line,
 .secondline,
-.third-line{
+.third-line {
     display: flex;
     gap: 10px;
     margin-top: 5px;
+    /* position: relative; */
+}
+
+.item {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    color: white;
+    font-size: 1.7em;
+}
+
+/* choose us section  */
+.choose-section>h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+
+}
+
+.choose-section>p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+
+}
+
+
+.card-container {
+    display: flex;
+    gap: 1.5em;
+    margin-top: 3em;
+}
+
+.card {
+    padding: 2em;
+    border-radius: 2em;
+    color: rgba(19, 19, 24, 0.70);
+
+}
+
+.card>h2 {
+    color: black;
+    font-size: 1.5em;
+    margin: 1.5em 0 1em 0;
+
+}
+
+.card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.card-2 {
+    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+}
+
+.card-3 {
+    background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+
+}
+
+.card>img {
+    display: block;
 }
 
 
 
- 
+
 
 
 
 /* responsive  */
 @media only screen and (max-width: 600px) {
-    .body-container{
+    .body-container {
         width: 100%;
     }
-    .hero-content>div>h1{
+
+    .hero-content>div>h1 {
         font-size: 2em;
     }
-    .hero-form-container{
+
+    .hero-form-container {
         width: 70%;
         margin: auto;
     }
+
     #whereGo,
     .selectOption,
-    .hero-btn{
+    .hero-btn {
         display: block;
         width: 100%;
         margin-top: 10px;
     }
-    .popular-conatiner
-    {
+
+    .popular-conatiner {
         grid-template-columns: 1fr;
-        padding:0 30px 30px 30px;
+        padding: 0 30px 30px 30px;
     }
-    .popular-img{
+
+    .popular-img {
         width: 100%;
     }
+
     .first-line,
     .secondline,
-    .third-line{
+    .third-line {
         flex-direction: column;
     }
-    .destination-title>p{
+
+    .destination-title>p {
         width: 100%;
         padding: 0 30px;
     }
+
+    .card-container {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding-top: 1.5em;
+    }
+
+    .card-3 {
+        width: 90%;
+    }
+
     /* .destination-container>div>img{
         width: 50%;
     } */

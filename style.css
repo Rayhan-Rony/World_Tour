@@ -31,6 +31,29 @@
 
 .logo {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* navbar  */
+.logo-title{
+    font-size: 2em;
+}
+nav{
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>div>ul{
+    display: flex;
+    gap: 3em;
+    color: #5A5A5D;
+}
+.active{
+    color: #FF5400;
+}
+.hamburger-icon{
+    display: none;
 }
 
 /* hero section  */
@@ -48,6 +71,7 @@
     justify-content: center;
     align-items: center;
     height: 500px;
+    border-radius: 16px;
 
 
 }
@@ -349,7 +373,16 @@
     .body-container {
         width: 100%;
     }
-
+    nav{
+        width: 90%;
+        margin: auto;
+    }
+    nav>div>ul{
+        display: none;
+    }
+    .hamburger-icon{
+       display: block;
+    }
     .hero-content>div>h1 {
         font-size: 2em;
     }

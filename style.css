@@ -219,6 +219,40 @@
     display: block;
 }
 
+/* perfect section  */
+.perfect-section {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.perfect-section-title {
+    font-size: 2.5em;
+    font-weight: bold;
+
+}
+
+.perfect-section-details {
+    color: #5A5A5D;
+    margin: 1em 0;
+    text-align: justify;
+}
+
+.point-details {
+    display: flex;
+    margin-top: 1.5em;
+    text-align: justify;
+}
+
+.perfect-section-btn {
+    margin-top: 2em;
+}
+
+
+.video {
+    border-radius: 1em;
+}
+
 
 
 
@@ -278,6 +312,8 @@
     .card-3 {
         width: 90%;
     }
+
+
 
     /* .destination-container>div>img{
         width: 50%;
